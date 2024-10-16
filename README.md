@@ -1,11 +1,16 @@
 # react-vite-shadcn-template
 
-This template can be used to quickly setup a React + TypeScript + Vite + ShadCN site
+this template can be used to quickly setup a react + typeScript + vite + shadcn site,
+with all the required configuration out of the box.
 
 ## features
 
-- configuration of vite, tailwindcss, shadcn, tanstack-router out of the box
-- dark mode
+- ✨ components & styling with tailwindcss & shadcn
+- 📦 bundling via vite
+- 🔀 routing w/ tanStack router
+- 🧪 unit/component tests setup
+- 🌑 dark mode
+- ✅ continuous integration/deployment with github workflows & vercel
 
 ## dependencies
 
