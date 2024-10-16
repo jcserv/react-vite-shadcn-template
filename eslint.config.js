@@ -5,7 +5,15 @@ import pluginReact from "eslint-plugin-react";
 
 export default [
   { files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"] },
-  { ignores: ["public/", "src/components/ui", "tailwind.config.js", "dist/"] },
+  {
+    ignores: [
+      "public/",
+      "src/components/ui",
+      "tailwind.config.js",
+      "dist/",
+      "cypress/",
+    ],
+  },
   { languageOptions: { globals: globals.browser } },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,

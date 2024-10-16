@@ -9,9 +9,9 @@ describe("Header", () => {
     mount(
       <>
         <RouterContextProvider router={router}>
-            <Header />
+          <Header />
         </RouterContextProvider>
-      </>
+      </>,
     );
     cy.contains("DevBlog").should("exist");
     cy.contains("Home").should("exist");
