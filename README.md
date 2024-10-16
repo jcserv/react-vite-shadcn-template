@@ -1,5 +1,7 @@
 # react-vite-shadcn-template
 
+![visitors](https://img.shields.io/endpoint?url=https://vu-mi.com/api/v1/views?id=jcserv/react-vite-shadcn-template)
+
 this template can be used to quickly setup a react + typeScript + vite + shadcn site,
 with all the required configuration out of the box.
 
@@ -8,7 +10,7 @@ with all the required configuration out of the box.
 - ✨ components & styling with tailwindcss & shadcn
 - 📦 bundling via vite
 - 🔀 routing w/ tanStack router
-- 🧪 unit/component tests setup
+- 🧪 unit/component tests setup (see Header.cy.tsx & utils.test.ts)
 - 🌑 dark mode
 - ✅ continuous integration/deployment with github workflows & vercel
 
