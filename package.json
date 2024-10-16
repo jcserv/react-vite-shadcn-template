@@ -10,7 +10,7 @@
     "lint": "prettier . --write && eslint . --fix",
     "test": "pnpm test:types && pnpm test:jest && pnpm test:cypress:ci",
     "test:jest": "jest",
-    "test:cypress:ci": "cypress run --component --browser chrome --spec",
+    "test:cypress:ci": "cypress run --component --browser chrome",
     "test:cypress:dev": "cypress open --component --browser chrome",
     "test:types": "tsc --noEmit"
   },
@@ -30,6 +30,7 @@
   "devDependencies": {
     "@cypress/react18": "^2.0.1",
     "@eslint/js": "^9.12.0",
+    "@jest/globals": "^29.7.0",
     "@tanstack/router-devtools": "^1.65.0",
     "@tanstack/router-plugin": "^1.65.0",
     "@types/jest": "^29.5.13",
