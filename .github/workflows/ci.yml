@@ -1,4 +1,4 @@
-name: test
+name: ci
 
 on:
   push:
@@ -7,20 +7,20 @@ on:
   pull_request:
 
 jobs:
-  lint:
-    name: lint
+  ci:
+    name: ci
     runs-on: ubuntu-latest
     steps:
-      - name: Set up pnpm 
-        uses: pnpm/action-setup@v3
-
       - uses: actions/checkout@v2
+
+      - name: Setup pnpm 
+        uses: pnpm/action-setup@v3
 
       - name: Cache dependencies
         uses: actions/cache@v2
         with:
           path: "**/node_modules"
-          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/pnpm-lock.yaml') }}
 
       - name: Install dependencies
         run: pnpm i
