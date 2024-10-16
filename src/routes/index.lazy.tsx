@@ -20,7 +20,7 @@ function Index() {
   return (
     <section className="p-2 text-center">
       <h3>Welcome to my blog!</h3>
-      <div className='h-screen w-screen flex items-center justify-center'>
+      <div className="h-screen w-screen flex items-center justify-center">
         <Content />
       </div>
     </section>
@@ -41,7 +41,7 @@ function Content() {
           <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
           <AlertDialogDescription>
             This action cannot be undone. This will drop all tables in
-            production and it's the first day of your internship!
+            production and it&apos;s the first day of your internship!
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
