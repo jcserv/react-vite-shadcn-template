@@ -17,7 +17,7 @@ export const Header: React.FC = () => {
           onClick={() => {
             window.open(
               "https://github.com/jcserv/react-vite-shadcn-template",
-              "_blank"
+              "_blank",
             );
           }}
         >
