@@ -1,6 +1,6 @@
 import { Github } from "lucide-react";
-import { ModeToggle } from "./mode-toggle";
-import { Button } from "./ui/button";
+import { ModeToggle } from "@/components";
+import { Button } from "@/components/ui";
 import { Link } from "@tanstack/react-router";
 
 export const Header: React.FC = () => {
@@ -17,7 +17,7 @@ export const Header: React.FC = () => {
           onClick={() => {
             window.open(
               "https://github.com/jcserv/react-vite-shadcn-template",
-              "_blank",
+              "_blank"
             );
           }}
         >

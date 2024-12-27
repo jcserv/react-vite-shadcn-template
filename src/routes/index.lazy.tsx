@@ -9,7 +9,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
+} from "@/components/ui";
 import { createLazyFileRoute } from "@tanstack/react-router";
 
 export const Route = createLazyFileRoute("/")({
