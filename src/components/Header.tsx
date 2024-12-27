@@ -10,8 +10,12 @@ export const Header: React.FC = () => {
         <Link to="/">DevBlog</Link>
       </h1>
       <div className="flex items-center space-x-2">
-        <Link to="/" className="inline-flex items-center hover:underline">Home</Link> 
-        <Link to="/about" className="inline-flex items-center hover:underline">About</Link>
+        <Link to="/" className="inline-flex items-center hover:underline">
+          Home
+        </Link>
+        <Link to="/about" className="inline-flex items-center hover:underline">
+          About
+        </Link>
         <Button
           variant="ghost"
           size="icon"
