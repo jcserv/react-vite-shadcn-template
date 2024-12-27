@@ -9,10 +9,12 @@ export const Header: React.FC = () => {
       <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
         <Link to="/">DevBlog</Link>
       </h1>
-      <div className="space-x-2">
-        <Link to="/">Home</Link> <Link to="/about">About</Link>
+      <div className="flex items-center space-x-2">
+        <Link to="/" className="inline-flex items-center hover:underline">Home</Link> 
+        <Link to="/about" className="inline-flex items-center hover:underline">About</Link>
         <Button
           variant="ghost"
+          size="icon"
           className="p-2"
           onClick={() => {
             window.open(
