@@ -21,7 +21,9 @@ jobs:
       - name: Cache dependencies
         uses: actions/cache@v2
         with:
-          path: "**/node_modules"
+          path: |
+            **/node_modules
+            ~/.cache/Cypress
           key: ${{ runner.os }}-modules-${{ hashFiles('**/pnpm-lock.yaml') }}
 
       - name: Install dependencies
