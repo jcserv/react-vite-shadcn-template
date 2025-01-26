@@ -1,4 +1,5 @@
-import dog from "@/assets/dog.jpg";
+import { createLazyFileRoute } from "@tanstack/react-router";
+
 import {
   AlertDialog,
   AlertDialogAction,
@@ -10,7 +11,8 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui";
-import { createLazyFileRoute } from "@tanstack/react-router";
+
+import dog from "@/assets/dog.jpg";
 
 export const Route = createLazyFileRoute("/")({
   component: Index,

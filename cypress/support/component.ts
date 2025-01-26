@@ -1,7 +1,8 @@
-import "./commands";
 import { mount } from "cypress/react18";
 
 import "../../src/index.css";
+
+import "./commands";
 
 declare global {
   namespace Cypress {

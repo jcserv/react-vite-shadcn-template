@@ -1,7 +1,9 @@
 import { mount } from "@cypress/react18";
-import { Header } from "./Header";
 import { createRouter, RouterContextProvider } from "@tanstack/react-router";
+
 import { routeTree } from "@/routeTree.gen";
+
+import { Header } from "./Header";
 
 describe("Header", () => {
   it("should render the header contents", () => {
