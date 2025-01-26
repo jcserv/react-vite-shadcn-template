@@ -1,8 +1,6 @@
 import { add } from "./utils";
-import { expect } from "@jest/globals";
+import { expect, test } from "vitest";
 
-describe("add", () => {
-  it("should add two numbers", () => {
-    expect(add(1, 2)).toBe(3);
-  });
+test("adds 1 + 2 to equal 3", () => {
+  expect(add(1, 2)).toBe(3);
 });
