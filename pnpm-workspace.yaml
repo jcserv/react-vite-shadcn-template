@@ -1,0 +1,10 @@
+# Require packages to be at least this many minutes old before they can be
+# installed. Mitigates supply-chain attacks where a malicious version is
+# published and pulled in immediately via a caret range or `pnpm update`.
+# See: https://pnpm.io/settings#minimumreleaseage
+minimumReleaseAge: 1440
+
+# pnpm v10 only runs install scripts for packages on this allowlist.
+onlyBuiltDependencies:
+  - cypress
+  - esbuild
