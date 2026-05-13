@@ -1,5 +1,5 @@
-import { mount } from "cypress/react";
 import { createRouter, RouterContextProvider } from "@tanstack/react-router";
+import { mount } from "cypress/react";
 
 import { routeTree } from "@/routeTree.gen";
 
