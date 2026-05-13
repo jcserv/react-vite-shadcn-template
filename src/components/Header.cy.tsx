@@ -1,4 +1,4 @@
-import { mount } from "@cypress/react18";
+import { mount } from "cypress/react";
 import { createRouter, RouterContextProvider } from "@tanstack/react-router";
 
 import { routeTree } from "@/routeTree.gen";

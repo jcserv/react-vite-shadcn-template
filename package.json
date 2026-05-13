@@ -30,7 +30,6 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@cypress/react18": "^2.0.1",
     "@eslint/js": "^10.0.1",
     "@tanstack/router-devtools": "1.166.13",
     "@tanstack/router-plugin": "1.167.35",

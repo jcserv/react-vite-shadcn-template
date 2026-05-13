@@ -54,9 +54,6 @@ importers:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@3.4.19(tsx@4.21.0)(yaml@2.6.0))
     devDependencies:
-      '@cypress/react18':
-        specifier: ^2.0.1
-        version: 2.0.1(@types/react-dom@18.3.7(@types/react@18.3.28))(@types/react@18.3.28)(cypress@15.14.2)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@eslint/js':
         specifier: ^10.0.1
         version: 10.0.1(eslint@10.3.0(jiti@1.21.7))
@@ -206,19 +203,6 @@ packages:
   '@babel/types@7.29.0':
     resolution: {integrity: sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==}
     engines: {node: '>=6.9.0'}
-
-  '@cypress/react18@2.0.1':
-    resolution: {integrity: sha512-T/bhFEvVDIu0lDOKXbEQqVEmmANKWc/pyFDyDoJw3OndRYv9QVEJSsE/VNXIaOQLDjWvQkKBOwd0lLe1hWF/Zg==}
-    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
-    peerDependencies:
-      '@types/react': ^18
-      '@types/react-dom': ^18
-      cypress: '*'
-      react: ^18
-      react-dom: ^18
-    peerDependenciesMeta:
-      '@types/react':
-        optional: true
 
   '@cypress/request@3.0.10':
     resolution: {integrity: sha512-hauBrOdvu08vOsagkZ/Aju5XuiZx6ldsLfByg1htFeldhex+PeMrYauANzFsMJeAA0+dyPLbDoX2OYuvVoLDkQ==}
@@ -3233,15 +3217,6 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
-
-  '@cypress/react18@2.0.1(@types/react-dom@18.3.7(@types/react@18.3.28))(@types/react@18.3.28)(cypress@15.14.2)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
-    dependencies:
-      '@types/react-dom': 18.3.7(@types/react@18.3.28)
-      cypress: 15.14.2
-      react: 19.2.4
-      react-dom: 19.2.4(react@19.2.4)
-    optionalDependencies:
-      '@types/react': 18.3.28
 
   '@cypress/request@3.0.10':
     dependencies:
